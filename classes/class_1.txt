@@ -1,0 +1,20 @@
+Class: Kitchen
+
+Attributes:
+namesOfBackOfHouseEmployees(array)
+numberOfBackOfHouseEmployees(integer)
+dryGoodsInventory(hash)
+numberOfTickets(integer)
+completedTickets(integer)
+busy(boolean)
+
+Methods:
+hireBackOfHouseEmployee(modifies namesOfBackOfHouseEmployees by adding 1)
+                       (modifies numberOfBackOfHouseEmployees by adding 1)
+stockDryGoods(adds amount of inventory of dryGoodsInventory by 3)
+makeTicket(modifies the numberOfTickets by subtracting 1)
+          (modified the number of completedTickets by adding 1)
+fireBackOfHouseEmployee(modifies namesOfBackOfHouseEmployees by subtracting 1)
+                       (modifies numberOfBackOfHouseEmployees by adding 1)
+ticketsBeingPrinted(modifies the numberOfTickets by adding 5)
+                   (changes busy to true)

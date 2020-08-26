@@ -1,0 +1,9 @@
+var food = "pizza";
+isDelicious = true;
+food = "sushi";
+num2 = 4;
+num7 = 2;
+var quotient = num7/num2
+var songs = ["Me!", "Don't you break my heart", "broken cage"];
+songs.shift();
+food.length

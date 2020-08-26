@@ -1,0 +1,15 @@
+class: server
+
+Attributes :
+name(string)
+numberOfTables(integer)
+weeklyShiftsSchedule(array)
+numberOfOrders(integer)
+inTheWeeds(boolean)
+
+Methods:
+getSatTable(modifies numberOfTables by adding 2)
+           (changes inTheWeeds to true)
+requestOffShift(modifies weeklyShiftsSchedule by taking 1 day off)
+takeOrder(modifies numberOfOrders by 1)
+closeOutTable(modifies numberOfTables by subtracting 1)

@@ -1,0 +1,20 @@
+Instance: Head Chef Jonah's Kitchen
+
+Attributes:
+namesOfBackOfHouseEmployees(array) = ["Jonah", "Matt", "Julie"]
+numberOfBackOfHouseEmployees(integer) = 3
+dryGoodsInventory(hash)= {"bread" : 4, "flour" : 3, "sugar" : 5}
+numberOfTickets(integer) = 2
+completedTickets(integer) = 7
+busy(boolean) = false
+
+Methods:
+hireBackOfHouseEmployee: namesOfBackOfHouseEmployees = ["Jonah", "Matt", "Julie", "Timmy"]
+                         numberOfBackOfHouseEmployees = 4
+stockDryGoods: {"bread" : 7, "flour" : 6, "sugar" : 8}
+makeTicket: numberOfTickets = 1
+            completedTickets = 8
+fireBackOfHouseEmployee: namesOfBackOfHouseEmployees = ["Jonah", "Julie"]
+                         numberOfBackOfHouseEmployees = 2
+ticketsBeingPrinted: numberOfTickets = 7
+                     busy = true

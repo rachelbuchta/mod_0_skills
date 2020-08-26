@@ -1,0 +1,15 @@
+Instance: Stefanie the server
+
+Attributes:
+name = "Stefanie"
+numberOfTables = 2
+weeklyShiftsSchedule = ["Monday", "Wednesday", "Friday", "Saturday", "Sunday"]
+numberOfOrders = 2
+inTheWeeds = false
+
+Methods:
+getSatTable: numberOfTables = 4
+             inTheWeeds = true
+requestOffShift: weeklyShiftsSchedule = ["Wednesday", "Friday", "Saturday", "Sunday"]
+takeOrder: numberOfOrders = 3
+closeOutTable: numberOfTables = 3
